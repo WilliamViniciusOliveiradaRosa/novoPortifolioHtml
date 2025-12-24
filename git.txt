@@ -1,0 +1,13 @@
+git init 				| iniciar git
+git status				| verificar qual arquivos não estão em controle de versao
+git add "index.txt"			| add um único arquivo para controle de versão
+git add .				| add todos arquivos pendentes para o controle de versão
+
+git commit -m "Commit inicial"		| primeira versão do projeto mensagem pode ser de acordo que o usuário queira
+
+Proximo passso criar um repositório atrávez do site!!!
+
+git remote add origin URL		| a url é do repositório criado no passo anterior
+
+git push				| ele  vai dar uma msg dizendo que não sabe para qual branch vai 
+git push --set-upstream origin master	| essa é a branch principal
